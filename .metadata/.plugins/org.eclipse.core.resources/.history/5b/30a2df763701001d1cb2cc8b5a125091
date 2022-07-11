@@ -1,0 +1,22 @@
+package com.test.SpringTest.Controller;
+
+import com.test.SpringTest.ModelEnttity.Users;
+import com.test.SpringTest.Service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	@Autowired
+	private  UserService userService;
+	
+	@GetMapping
+	public Users getUsers() {
+		
+		return userService.getAllusers();
+	}
+
+}

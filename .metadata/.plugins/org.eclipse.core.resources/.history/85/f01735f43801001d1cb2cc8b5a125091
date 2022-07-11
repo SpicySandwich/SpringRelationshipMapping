@@ -1,0 +1,22 @@
+package com.test.SpringTest.Service;
+
+import java.util.List;
+
+import com.test.SpringTest.DAO.UserDAO;
+import com.test.SpringTest.ModelEnttity.Users;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class UserService {
+	
+	@Autowired
+	private UserDAO userDAO;
+	
+	public List<Users> getAllusers(){
+		
+		return (List<Users>) userDAO.findAll();
+	}
+	
+	
+
+}

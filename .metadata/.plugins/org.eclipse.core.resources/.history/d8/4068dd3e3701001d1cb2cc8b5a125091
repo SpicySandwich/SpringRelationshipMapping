@@ -1,0 +1,14 @@
+package com.test.SpringTest.Service;
+
+import com.test.SpringTest.DAO.UserDAO;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class UserService {
+	
+	@Autowired
+	private UserDAO userDAO;
+	
+	
+
+}

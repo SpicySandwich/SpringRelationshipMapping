@@ -1,0 +1,32 @@
+package com.test.SpringTest.Controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.test.SpringTest.ModelEnttity.Users;
+import com.test.SpringTest.Service.UserService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+	
+	@Autowired
+	private  UserService userService;
+	
+	@GetMapping
+	public List<Users> getUsers() {
+		
+		return userService.getAllusers();
+	}
+	
+	@GetMapping("/{id}")
+	public Optional<Users> getbyId(@PathVariable Integer id) {
+		
+		return userService.getbyId(id);
+	}
+
+}

@@ -28,5 +28,6 @@ public class Users {
 	
 	@OneToMany(mappedBy = "users")
 	private List<Posts> posts;
+	private String email;
 
 }
