@@ -19,7 +19,7 @@ public class Location {
 	@Id
 	private Integer id;
 	private String name;
-	@OneToMany
+	@OneToMany(mappedBy = "location")
 	private List<Users> users;
 
 }

@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import lombok.AllArgsConstructor;
@@ -15,16 +14,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Users {
+public class Location {
 	
 	@Id
 	private Integer id;
-	private String firstname;
-	private String lastname;
-	@ManyToOne
-	private Location location;
-	
-	@OneToMany(mappedBy = "users")
-	private List<Posts> posts;
+	private String name;
+	@OneToMany
+	private List<Users> users;
 
 }

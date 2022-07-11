@@ -24,7 +24,7 @@ public class Users {
 	@ManyToOne
 	private Location location;
 	
-	@OneToMany(mappedBy = "users")
+	@OneToMany
 	private List<Posts> posts;
 
 }
