@@ -1,7 +1,10 @@
 package com.test.SpringTest.ModelEnttity;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -16,5 +19,7 @@ public class Location {
 	@Id
 	private Integer id;
 	private String name;
+	@OneToMany
+	private List<Users> users;
 
 }
