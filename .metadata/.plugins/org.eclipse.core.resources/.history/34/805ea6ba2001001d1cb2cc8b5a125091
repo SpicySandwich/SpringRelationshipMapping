@@ -1,0 +1,5 @@
+package com.test.SpringTest.DAO;
+
+public interface LocationDAO {
+
+}
