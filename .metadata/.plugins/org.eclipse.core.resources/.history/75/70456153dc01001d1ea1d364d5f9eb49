@@ -47,14 +47,9 @@ public class UserController {
 	}
 	
 	@GetMapping("/{id}/location")
-	public Location getLocationByUsers(@PathVariable Integer id){
+	public List<Users> getLocationByUsers(@PathVariable Integer id){
 		
-		Optional<Users> user = userService.getbyId(id);
-		
-		if (user.isPresent()) {
-			return  user.get().getLocation();
-		}
-		return null;
+	return userService.getLocationByUSer(id);
 	}
 
 }
