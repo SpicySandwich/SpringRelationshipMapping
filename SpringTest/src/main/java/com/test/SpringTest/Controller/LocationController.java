@@ -33,14 +33,14 @@ public class LocationController {
 	}
 	
 	@GetMapping("/{id}/users")
-	public List<Users>  getLocationWithUSers(@PathVariable Integer id){
+	public List<Users>  getUSerByLocation(@PathVariable Integer id){
 		
 		Optional<Location> location = locationService.getLocationid(id);
 		
 		if (location.isPresent()) {
 			
-		  Location location2 =	location.get();
-			return location2.getUsers();
+			return location.get().getUsers();
+		
 		}
 		return null;
 	}

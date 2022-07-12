@@ -3,6 +3,7 @@ package com.test.SpringTest.Controller;
 import java.util.List;
 import java.util.Optional;
 
+import com.test.SpringTest.ModelEnttity.Posts;
 import com.test.SpringTest.ModelEnttity.Users;
 import com.test.SpringTest.Service.UserService;
 
@@ -29,6 +30,19 @@ public class UserController {
 	public Optional<Users> getbyId(@PathVariable Integer id) {
 		
 		return userService.getbyId(id);
+	}
+	
+	@GetMapping("/{id}/post")
+	public List<Posts> getPostbyUsers(@PathVariable Integer id){
+		
+		Optional<Users>  user = userService.getbyId(id);
+		
+		if (user.isPresent()) {
+			
+			return user.get().getPosts();
+	
+		}
+		return null;
 	}
 
 }
