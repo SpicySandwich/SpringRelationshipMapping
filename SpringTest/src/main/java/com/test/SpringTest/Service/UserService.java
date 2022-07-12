@@ -25,6 +25,11 @@ public class UserService {
 		return userDAO.findById(id);
 	}
 	
+	public List<Users> getLocationByUSer(Integer id){
+		
+		return userDAO.findByLocationId(id);
+	}
+	
 	
 
 }

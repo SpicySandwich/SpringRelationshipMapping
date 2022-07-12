@@ -3,6 +3,7 @@ package com.test.SpringTest.Controller;
 import java.util.List;
 import java.util.Optional;
 
+import com.test.SpringTest.ModelEnttity.Location;
 import com.test.SpringTest.ModelEnttity.Posts;
 import com.test.SpringTest.ModelEnttity.Users;
 import com.test.SpringTest.Service.UserService;
@@ -43,6 +44,12 @@ public class UserController {
 	
 		}
 		return null;
+	}
+	
+	@GetMapping("/{id}/location")
+	public List<Users> getLocationByUsers(@PathVariable Integer id){
+		
+	return userService.getLocationByUSer(id);
 	}
 
 }
