@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.test.SpringTest.ModelEnttity.Location;
+import com.test.SpringTest.ModelEnttity.Users;
 import com.test.SpringTest.Service.LocationService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,19 @@ public class LocationController {
 	public Optional<Location> getLocationbyid(@PathVariable Integer id){
 		
 		return locationService.getLocationid(id);
+	}
+	
+	@GetMapping("/{id}/users")
+	public List<Users>  getLocationWithUSers(@PathVariable Integer id){
+		
+		Optional<Location> location = locationService.getLocationid(id);
+		
+		if (location.isPresent()) {
+			
+		  Location location2 =	location.get();
+			return location2.getUsers();
+		}
+		return null;
 	}
 
 }
