@@ -24,5 +24,15 @@ public class PostService {
 		
 		return postDAO.findById(id);
 	}
+	
+	public List<Posts> getAllPostByUSer(Integer id){
+		
+		return postDAO.findByUsersId(id);
+	}
+	
+	public Posts savePost(Posts posts) {
+		
+		return postDAO.save(posts);
+	}
 
 }

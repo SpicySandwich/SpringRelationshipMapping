@@ -25,6 +25,11 @@ public class UserService {
 		return userDAO.findById(id);
 	}
 	
+	public Users saveUsers(Users users) {
+		
+		return userDAO.save(users);
+	}
+	
 
 	
 	

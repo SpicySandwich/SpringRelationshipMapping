@@ -24,5 +24,10 @@ public class LocationService {
 		
 		return locationDAO.findById(id);
 	}
+	
+	public Location saveLocation(Location location) {
+		
+		return locationDAO.save(location);
+	}
 
 }
