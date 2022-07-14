@@ -38,7 +38,7 @@ public class Users {
 	private String lastname;
 	
 	//@JsonBackReference
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "location_id",insertable  =false, updatable  =false)
 	private Location location;
 	

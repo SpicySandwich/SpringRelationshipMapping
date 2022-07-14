@@ -34,7 +34,7 @@ public class Posts {
 	private LocalDateTime postDate;
 	
 	//@JsonBackReference
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "users_id",insertable  =false, updatable  =false)
 	private Users users;
 	private String details;

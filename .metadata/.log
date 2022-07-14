@@ -10969,3 +10969,12 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-14 14:47:18.065
 !MESSAGE executing callback sts4.classpath.teTLKGkJ SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-07-14 15:08:49.221
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
