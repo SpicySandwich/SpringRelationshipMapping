@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -21,13 +22,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Setter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-//@JsonIdentityInfo(
-//		generator = ObjectIdGenerators.PropertyGenerator.class, 
-//		property = "id")
+@JsonIdentityInfo(
+		  generator = ObjectIdGenerators.PropertyGenerator.class, 
+		  property = "id")
 public class Users {
 	
 	@Id
@@ -35,41 +36,19 @@ public class Users {
 	private Integer id;
 	private String firstname;
 	private String lastname;
-	@ManyToOne
+	
+	//@JsonBackReference
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "location_id",insertable  =false, updatable  =false)
 	private Location location;
 	
+	//@JsonManagedReference
 	@OneToMany(mappedBy = "users", cascade = CascadeType.ALL)
 	private List<Posts> posts;
 	private String email;
 	private Integer location_id;
 	
-	
-	public Integer getId() {
-		return id;
-	}
-	public String getFirstname() {
-		return firstname;
-	}
-	public String getLastname() {
-		return lastname;
-	}
-	@JsonBackReference
-	public Location getLocation() {
-		return location;
-	}
-	
-	@JsonManagedReference
-	public List<Posts> getPosts() {
-		return posts;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public Integer getLocation_id() {
-		return location_id;
-	}
-	
+
 	
 	
 	
