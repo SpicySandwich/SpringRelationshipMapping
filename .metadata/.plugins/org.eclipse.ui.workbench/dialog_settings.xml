@@ -6,4 +6,8 @@
 			<item value="org.eclipse.buildship.ui.importwizards"/>
 		</list>
 	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="SpringBootYMLPropertyEditor"/>
+	</section>
 </section>
