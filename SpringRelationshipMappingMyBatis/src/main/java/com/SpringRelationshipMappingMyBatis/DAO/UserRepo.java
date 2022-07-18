@@ -33,7 +33,7 @@ public interface UserRepo {
 	
     public  List <Users> findAll();
 
-	@Select("SELECT  id, details as details, post_date as post_date, users_id as users_id FROM posts WHERE id = #{id}")
+	@Select("SELECT  id, details as details, post_date as postDate, users_id as users_id FROM posts WHERE id = #{id}")
 	List<Posts> selectUserPosts();
 	
 	@Select("SELECT id as id, name as name FROM location WHERE id = #{location_id}")
