@@ -59,8 +59,6 @@ public interface UserRepo {
 	@Delete("DELETE FROM users WHERE id = #{id}")
 	public int deleteById(Integer id);
 	
-
-	
 	 @Update("Update users set "
 	 		+ "id=#{id}, " +
 		        "firstname=#{firstname},"

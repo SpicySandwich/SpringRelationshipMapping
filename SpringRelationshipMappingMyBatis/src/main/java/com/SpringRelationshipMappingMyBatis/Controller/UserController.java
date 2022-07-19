@@ -3,6 +3,7 @@ package com.SpringRelationshipMappingMyBatis.Controller;
 import java.util.List;
 import java.util.Optional;
 
+import com.SpringRelationshipMappingMyBatis.Entity.Location;
 import com.SpringRelationshipMappingMyBatis.Entity.Posts;
 import com.SpringRelationshipMappingMyBatis.Entity.Users;
 import com.SpringRelationshipMappingMyBatis.Service.UserService;
@@ -40,5 +41,17 @@ public class UserController {
 		}
 		return null;
 	}
+	
+	@GetMapping("/{id}/location")
+	public Location getLocationFromUser(@PathVariable Integer id){
+		
+		Optional<Users> uOptional = Optional.of(userService.findUser(id));
+		if (uOptional.isPresent()) {
+			return uOptional.get().getLocation();
+		}
+		return null;
+	}
+	
+	
 
 }
