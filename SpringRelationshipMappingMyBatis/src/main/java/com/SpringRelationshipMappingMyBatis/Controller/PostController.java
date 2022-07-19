@@ -8,8 +8,12 @@ import com.SpringRelationshipMappingMyBatis.Entity.Users;
 import com.SpringRelationshipMappingMyBatis.Service.PostService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -42,6 +46,22 @@ public class PostController {
 			return posts.get().getUsers();
 		}
 		return null;
+	}
+	
+	@DeleteMapping("/{id}")
+	public Integer deletePost(@PathVariable Integer id) {
+		return postService.deletePost(id);
+	}
+	
+	@PostMapping
+	public Integer addPost(@RequestBody Posts posts) {
+		return postService.addPost(posts);
+	}
+	
+	@PutMapping
+	public void updatePost(@RequestBody Posts posts) {
+		postService.updatePost(posts);
+		
 	}
 
 }

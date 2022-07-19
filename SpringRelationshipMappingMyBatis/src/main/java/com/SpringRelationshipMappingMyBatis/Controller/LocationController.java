@@ -8,8 +8,12 @@ import com.SpringRelationshipMappingMyBatis.Entity.Users;
 import com.SpringRelationshipMappingMyBatis.Service.LocationService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -40,5 +44,21 @@ public class LocationController {
 			return location.get().getUsers();
 		}
 		return null;
+	}
+	
+	@DeleteMapping("/{id}")
+	public Integer deleteLocation(@PathVariable Integer id) {
+		
+		return locationService.deleteLocation(id);
+	}
+	
+	@PostMapping
+	public  Integer addLocation(@RequestBody Location location) {
+		return locationService.addLocation(location);
+	}
+	
+	@PutMapping
+	public void updateLocation(@RequestBody Location location) {
+		 locationService.updateLocation(location);
 	}
 }
