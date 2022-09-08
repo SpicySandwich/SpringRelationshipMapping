@@ -7,3 +7,477 @@
 2022-07-16 17:04:07,422 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-07-17 20:30:50,724 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2022-07-18 19:37:09,528 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-19 22:28:39,247 [Worker-15: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-07-20 19:50:22,361 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-30 23:00:17,939 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-08 10:46:57,188 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-08 10:49:48,489 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 10:49:51,404 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.7.3/spring-boot-devtools-2.7.3.pom
+2022-09-08 10:49:51,799 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.7.3/spring-boot-devtools-2.7.3.pom
+2022-09-08 10:49:52,100 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.pom
+2022-09-08 10:49:52,410 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.pom
+2022-09-08 10:49:52,887 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar
+2022-09-08 10:49:53,334 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.7.3/spring-boot-devtools-2.7.3.jar
+2022-09-08 10:49:56,178 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.7.3/spring-boot-devtools-2.7.3.jar
+2022-09-08 10:50:00,795 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar
+2022-09-08 10:50:04,309 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 10:50:04,309 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:50:04,319 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:50:04,326 [Worker-21: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 10:50:06,376 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.7.3/spring-boot-devtools-2.7.3-sources.jar
+2022-09-08 10:50:07,534 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.7.3/spring-boot-devtools-2.7.3-sources.jar
+2022-09-08 10:50:07,543 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.7.3
+2022-09-08 10:50:08,366 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30-sources.jar
+2022-09-08 10:50:09,355 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:50:09,356 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:50:09,379 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 10:50:09,399 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 10:50:09,402 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:50:09,402 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:50:09,402 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 10:50:09,683 [Worker-21: Importing Maven projects] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 10:50:11,343 [Worker-21: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 26 sec
+2022-09-08 10:50:13,997 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30-sources.jar
+2022-09-08 10:50:14,011 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.30
+2022-09-08 10:51:26,353 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 10:51:26,682 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 10:51:27,525 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:51:27,525 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:51:27,531 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 10:51:27,553 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 10:51:27,556 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:51:27,556 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:51:27,557 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 10:51:34,788 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 10:51:34,789 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:51:34,789 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:51:34,789 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 10:51:36,595 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:51:36,596 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:51:36,597 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 10:51:36,607 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 10:51:36,609 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:51:36,610 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:51:36,610 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 10:51:36,656 [Worker-12: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 10:51:37,516 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2022-09-08 10:51:53,820 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 10:51:54,136 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 10:51:54,995 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 10:51:54,996 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:51:54,996 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:51:54,996 [Worker-0: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 10:51:56,410 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:51:56,411 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:51:56,412 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 10:51:56,453 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 10:51:56,458 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:51:56,458 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:51:56,458 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 10:51:56,561 [Worker-0: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 10:51:57,775 [Worker-0: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-09-08 10:52:21,119 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 10:52:21,420 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 10:52:22,385 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 10:52:22,385 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:52:22,385 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:52:22,386 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 10:52:23,365 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:52:23,365 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:52:23,367 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 10:52:23,385 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 10:52:23,388 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:52:23,388 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:52:23,388 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 10:52:23,416 [Worker-12: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 10:52:24,036 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-09-08 10:59:38,240 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 10:59:38,525 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 10:59:39,418 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 10:59:39,418 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:59:39,418 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 10:59:39,419 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 10:59:40,512 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:59:40,513 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:59:40,513 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 10:59:40,541 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 10:59:40,544 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 10:59:40,544 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 10:59:40,544 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 10:59:40,584 [Worker-22: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 10:59:41,169 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-09-08 11:02:18,503 [Worker-34: Launching Executing clean in C__Users_conre_Desktop_SpringTest_AwsSecretManagerDB] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB
+2022-09-08 11:02:18,504 [Worker-34: Launching Executing clean in C__Users_conre_Desktop_SpringTest_AwsSecretManagerDB] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2022-09-08 11:02:30,414 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 11:02:30,728 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 11:02:31,577 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 11:02:31,578 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 11:02:31,578 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 11:02:31,578 [Worker-39: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 11:02:32,507 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:02:32,508 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:02:32,509 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 11:02:32,530 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 11:02:32,532 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:02:32,532 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:02:32,532 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 11:02:32,560 [Worker-39: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 11:02:32,980 [Worker-39: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-09-08 11:05:16,741 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-iam/1.11.792/aws-java-sdk-iam-1.11.792.jar
+2022-09-08 11:05:16,741 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-rds/1.11.792/aws-java-sdk-rds-1.11.792.jar
+2022-09-08 11:05:19,570 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-iam/1.11.792/aws-java-sdk-iam-1.11.792.jar
+2022-09-08 11:05:19,798 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-rds/1.11.792/aws-java-sdk-rds-1.11.792.jar
+2022-09-08 11:05:22,722 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 11:05:23,650 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 11:05:27,557 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:05:27,557 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:05:27,558 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 11:05:27,573 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 11:05:27,575 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:05:27,575 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:05:27,575 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 11:05:29,792 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 11:05:29,792 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 11:05:29,792 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 11:05:29,792 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 11:05:31,642 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:05:31,642 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:05:31,642 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-aws-jdbc/2.2.6.RELEASE/spring-cloud-aws-jdbc-2.2.6.RELEASE-sources.jar
+2022-09-08 11:05:31,650 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 11:05:31,680 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 11:05:31,682 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:05:31,683 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:05:31,683 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 11:05:32,181 [Worker-42: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 11:05:32,193 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-aws-jdbc/2.2.6.RELEASE/spring-cloud-aws-jdbc-2.2.6.RELEASE-sources.jar
+2022-09-08 11:05:32,206 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-aws-jdbc:2.2.6.RELEASE
+2022-09-08 11:05:32,618 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2022-09-08 11:05:32,803 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/9.0.65/tomcat-jdbc-9.0.65-sources.jar
+2022-09-08 11:05:33,529 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-jdbc/9.0.65/tomcat-jdbc-9.0.65-sources.jar
+2022-09-08 11:05:33,542 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-jdbc:9.0.65
+2022-09-08 11:05:34,341 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/9.0.65/tomcat-juli-9.0.65-sources.jar
+2022-09-08 11:05:34,753 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-juli/9.0.65/tomcat-juli-9.0.65-sources.jar
+2022-09-08 11:05:34,763 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat:tomcat-juli:9.0.65
+2022-09-08 11:05:35,467 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-rds/1.11.792/aws-java-sdk-rds-1.11.792-sources.jar
+2022-09-08 11:05:37,321 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-rds/1.11.792/aws-java-sdk-rds-1.11.792-sources.jar
+2022-09-08 11:05:37,335 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-rds:1.11.792
+2022-09-08 11:05:38,131 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-iam/1.11.792/aws-java-sdk-iam-1.11.792-sources.jar
+2022-09-08 11:05:40,290 [Worker-45: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/amazonaws/aws-java-sdk-iam/1.11.792/aws-java-sdk-iam-1.11.792-sources.jar
+2022-09-08 11:05:40,303 [Worker-45: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.amazonaws:aws-java-sdk-iam:1.11.792
+2022-09-08 11:11:43,078 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-08 11:13:43,199 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 11:13:44,579 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 11:13:48,708 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:13:48,708 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:13:48,712 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 11:13:48,739 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 11:13:48,741 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:13:48,741 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:13:48,741 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 11:13:52,618 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 11:13:52,619 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 11:13:52,620 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 11:13:52,621 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 11:13:54,725 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:13:54,726 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:13:54,730 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 11:13:54,748 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 11:13:54,752 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 11:13:54,753 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 11:13:54,753 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 11:13:54,822 [Worker-22: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 11:13:55,787 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-aws-autoconfigure/2.2.6.RELEASE/spring-cloud-aws-autoconfigure-2.2.6.RELEASE-sources.jar
+2022-09-08 11:13:56,035 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2022-09-08 11:13:56,132 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-aws-autoconfigure/2.2.6.RELEASE/spring-cloud-aws-autoconfigure-2.2.6.RELEASE-sources.jar
+2022-09-08 11:13:56,607 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-aws-autoconfigure:2.2.6.RELEASE
+2022-09-08 11:19:06,253 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.9; built: 2022-03-30T16:46:32.527Z; git: a9eaf8d5d73369acf610ce88f850c0d56c4b1113; jvm 11.0.14+8-LTS-263
+2022-09-08 11:19:06,315 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2022-09-08 11:19:06,388 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6c358a05{/help,null,AVAILABLE}
+2022-09-08 11:19:06,420 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@36d4ecf3{HTTP/1.1, (http/1.1)}{127.0.0.1:56364}
+2022-09-08 11:19:06,423 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@66112c72{STARTING}[10.0.9,sto=0] @531598ms
+2022-09-08 11:21:01,288 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@66112c72{STOPPING}[10.0.9,sto=0]
+2022-09-08 11:21:01,293 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@36d4ecf3{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2022-09-08 11:21:01,304 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6c358a05{/help,null,STOPPED}
+2022-09-08 11:21:44,103 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-09-08 11:25:06,240 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.9; built: 2022-03-30T16:46:32.527Z; git: a9eaf8d5d73369acf610ce88f850c0d56c4b1113; jvm 11.0.14+8-LTS-263
+2022-09-08 11:25:06,270 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2022-09-08 11:25:06,303 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@43c0f6f8{/help,null,AVAILABLE}
+2022-09-08 11:25:06,315 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@d9cb0f{HTTP/1.1, (http/1.1)}{127.0.0.1:56581}
+2022-09-08 11:25:06,316 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@14449b69{STARTING}[10.0.9,sto=0] @235090ms
+2022-09-08 13:34:29,143 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 13:34:32,624 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:34:32,625 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:34:32,627 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:34:32,646 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:34:32,648 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:34:32,648 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:34:32,648 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:35:39,588 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:35:39,589 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:35:39,590 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 13:35:39,596 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:35:39,598 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:35:39,598 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:35:39,598 [Worker-64: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:37:14,636 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:37:14,636 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:37:14,637 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:37:14,646 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:37:14,647 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:37:14,647 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:37:14,647 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:38:17,739 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:38:17,739 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:38:17,740 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:38:17,756 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:38:17,758 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:38:17,758 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:38:17,758 [Worker-59: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:39:22,200 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:39:22,200 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:39:22,200 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:39:22,217 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:39:22,218 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:39:22,218 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:39:22,218 [Worker-70: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:40:20,082 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:40:20,083 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:40:20,083 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:40:20,092 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:40:20,093 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:40:20,093 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:40:20,093 [Worker-71: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:40:57,673 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:40:57,673 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:40:57,674 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:40:57,685 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:40:57,687 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:40:57,687 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:40:57,687 [Worker-68: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:44:25,153 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:44:25,154 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:44:25,154 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 13:44:25,167 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:44:25,171 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:44:25,171 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:44:25,171 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:47:40,983 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:47:40,984 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:47:40,984 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:47:40,993 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:47:40,994 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:47:40,994 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:47:40,994 [Worker-74: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:49:36,659 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:49:36,659 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:49:36,659 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 13:49:36,667 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:49:36,669 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:49:36,669 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:49:36,669 [Worker-82: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:51:41,523 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:51:41,523 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:51:41,523 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-09-08 13:51:41,548 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:51:41,550 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:51:41,550 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:51:41,550 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:52:32,983 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:52:32,983 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:52:32,984 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:52:32,986 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:52:32,987 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:52:32,988 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:52:32,988 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:52:56,090 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:52:56,091 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:52:56,091 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 13:52:56,098 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:52:56,100 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:52:56,100 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:52:56,100 [Worker-66: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:53:48,875 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:53:48,875 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:53:48,876 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 13:53:48,882 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:53:48,883 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:53:48,883 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:53:48,884 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 13:59:02,514 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 13:59:03,062 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:59:03,062 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:59:03,065 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:59:03,065 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 13:59:03,067 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 13:59:03,067 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 13:59:03,067 [Worker-81: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:01:05,339 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 14:01:05,675 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 14:01:06,604 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 14:01:06,605 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 14:01:06,605 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 14:01:06,606 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 14:01:07,888 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:01:07,888 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:01:07,892 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:01:07,909 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:01:07,912 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:01:07,912 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:01:07,912 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:01:08,238 [Worker-81: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 14:01:09,196 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-09-08 14:02:39,898 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 14:02:40,651 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:02:40,651 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:02:40,651 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:02:40,671 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:02:40,672 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:02:40,672 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:02:40,672 [Worker-83: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:04:34,128 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 14:04:34,481 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 14:04:35,030 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:04:35,030 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:04:35,033 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:04:35,033 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:04:35,035 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:04:35,035 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:04:35,036 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:04:35,783 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 14:04:35,783 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 14:04:35,783 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 14:04:35,783 [Worker-96: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 14:04:37,155 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:04:37,155 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:04:37,156 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:04:37,184 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:04:37,186 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:04:37,186 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:04:37,186 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:04:37,218 [Worker-96: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 14:04:38,390 [Worker-96: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-09-08 14:05:43,783 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 14:05:44,117 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AWS:AwsSecretManagerDB:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\pom.xml.
+2022-09-08 14:05:45,404 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/main/java
+2022-09-08 14:05:45,404 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 14:05:45,405 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AwsSecretManagerDB/src/main/resources
+2022-09-08 14:05:45,405 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AwsSecretManagerDB/src/test/java
+2022-09-08 14:05:46,627 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:05:46,627 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:05:46,628 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:05:46,645 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:05:46,647 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:05:46,647 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:05:46,647 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:05:46,682 [Worker-97: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 14:05:47,508 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-09-08 14:08:37,981 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:08:37,981 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:08:37,981 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:08:37,998 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:08:37,999 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:08:37,999 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:08:37,999 [Worker-110: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:10:05,212 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:10:05,212 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:10:05,214 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:10:05,223 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:10:05,224 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:10:05,224 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:10:05,224 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:11:13,878 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:11:13,878 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:11:13,880 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:11:13,886 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:11:13,887 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:11:13,887 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:11:13,887 [Worker-111: Launching AwsSecretManagerDB - AwsSecretManagerDbApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AwsSecretManagerDB\src\test\resources
+2022-09-08 14:24:20,879 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.AWS:AWStokenSMtest:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\pom.xml.
+2022-09-08 14:24:21,731 [Worker-119: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AWStokenSMtest/src/main/java
+2022-09-08 14:24:21,731 [Worker-119: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AWStokenSMtest/src/main/resources
+2022-09-08 14:24:21,742 [Worker-119: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AWStokenSMtest/src/main/resources
+2022-09-08 14:24:21,753 [Worker-119: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AWStokenSMtest/src/test/java
+2022-09-08 14:24:23,115 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:24:23,115 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:24:23,115 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:24:23,119 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:24:23,120 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:24:23,120 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:24:23,120 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 14:24:23,383 [Worker-119: Importing Maven projects] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 14:24:25,245 [Worker-119: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-09-08 14:25:19,688 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 14:25:20,215 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.AWS:AWStokenSMtest:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\pom.xml.
+2022-09-08 14:25:21,737 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:25:21,737 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:25:21,740 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:25:21,752 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:25:21,753 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:25:21,753 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:25:21,753 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 14:25:23,578 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AWStokenSMtest/src/main/java
+2022-09-08 14:25:23,578 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AWStokenSMtest/src/main/resources
+2022-09-08 14:25:23,578 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AWStokenSMtest/src/main/resources
+2022-09-08 14:25:23,578 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AWStokenSMtest/src/test/java
+2022-09-08 14:25:24,554 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:25:24,554 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:25:24,555 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 14:25:24,560 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 14:25:24,562 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 14:25:24,562 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 14:25:24,562 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 14:25:24,609 [Worker-123: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 14:25:24,972 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2022-09-08 15:14:33,205 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:14:33,205 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:14:33,205 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 15:14:33,210 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:14:33,211 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:14:33,211 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:14:33,211 [Worker-141: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 15:15:39,423 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-09-08 15:15:40,325 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.AWS:AWStokenSMtest:0.0.1-SNAPSHOT @ C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\pom.xml.
+2022-09-08 15:15:41,417 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:15:41,417 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:15:41,420 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:15:41,420 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:15:41,421 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:15:41,421 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:15:41,421 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 15:15:43,008 [Worker-145: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AWStokenSMtest/src/main/java
+2022-09-08 15:15:43,008 [Worker-145: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AWStokenSMtest/src/main/resources
+2022-09-08 15:15:43,008 [Worker-145: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AWStokenSMtest/src/main/resources
+2022-09-08 15:15:43,010 [Worker-145: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AWStokenSMtest/src/test/java
+2022-09-08 15:15:43,830 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:15:43,830 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:15:43,831 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 15:15:43,848 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:15:43,849 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:15:43,849 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:15:43,849 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 15:15:43,872 [Worker-145: Updating Maven Project] INFO  n.t.m.s.i.ProjectSettingsConfigurator - Could not set eclipse settings, consider org.apache.maven.plugins:maven-eclipse-plugin!
+2022-09-08 15:15:44,287 [Worker-145: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2022-09-08 15:15:53,658 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:15:53,658 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:15:53,658 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 15:15:53,661 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:15:53,663 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:15:53,663 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:15:53,663 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 15:19:47,981 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:19:47,982 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:19:47,982 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 15:19:48,004 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:19:48,006 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:19:48,006 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:19:48,006 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 15:20:14,606 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:20:14,606 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:20:14,606 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-09-08 15:20:14,611 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-09-08 15:20:14,613 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:20:14,613 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:20:14,613 [Worker-146: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\conre\Desktop\SpringTest\AWStokenSMtest\src\test\resources
+2022-09-08 15:29:35,413 [Worker-148: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-08 15:29:35,414 [Worker-148: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-09-08 15:29:35,414 [Worker-148: Launching AWStokenSMtest - AwStokenSMtestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
